@@ -1,0 +1,149 @@
+.body{
+    background-color: #f2f2f2;
+}
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 0;
+    border-bottom: 1px solid rgb(104, 99, 99); ;
+}
+header img{
+    width: 110px;
+}
+.left__heder{
+   margin-left: 20px;
+}
+.h_top{
+    margin: 12px 0px 0px 21px;
+
+}
+.h_top input{
+    width: 450px;
+    padding: 9px;
+    border: 0.5px solid;
+    border-radius: 5px;
+}
+.h_top button{
+    padding: 9px;
+    border-radius: 5px;
+    border: 0.5px solid;
+    margin-left: 10px;
+}
+.h_top button:hover{
+    background-color: rgb(247, 70, 70);
+    color: aliceblue;
+    font-weight: 700;
+}
+.h_botom{
+     margin-top: 20px;
+}
+.h_botom ul{
+    display: flex;
+}
+.h_botom li{
+    margin: 0 10px;
+}
+.h_botom a{
+      padding: 10px;
+      color: rgb(104, 99, 99);
+      font-weight: 600;
+}
+.h_botom  a:hover{
+    color: red;
+    border-bottom: 1px solid red;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 29px 0;
+}
+.content h3{
+    text-align: center;
+    padding: 10px 0;
+}
+.content a{
+    margin-left: 511px;
+    padding: 0 0 10px 0;
+}
+.noname{
+    display: flex;
+    margin: 20px 0 20px 0;
+}
+.content__left{
+    width: 280px;
+    height: 500px;
+    margin-right: 26px;
+    line-height: 33.6px;
+}
+.content__left h3{
+    text-align: left;
+}
+.content__left > div{
+    padding: 15px;
+    border-bottom:  1px solid rgb(83, 77, 77);
+}
+.content__left input{
+    margin-right: 10px;
+}
+.content__right{
+    width: 860px;
+    height: auto;
+    padding: 10px 0 0 39px;
+    border-left: 1px solid rgb(153, 147, 147);
+}
+.out_search{
+    padding: 15px 0;
+    margin-left: 21px;
+    border-radius: 7px;
+}
+.out_search > select{
+    padding: 5px;
+    margin-left: 10px;
+}
+.product{
+    width: 257px;
+    height: 410px;
+    background-color: #fefefe;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+.product img{
+    width: 257px;
+    height: 260px;
+}
+.product p
+{
+    padding: 28px;
+    font-weight: 700;
+}
+.product p:hover{
+    color: red;
+}
+.product span{
+    padding: 86px;
+}
+.content__name__product{
+    display: flex;
+}
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 81px 0 81px 0 ;
+}
+.content__footer{
+    width: 335px;
+    padding: 26px;
+    margin: 0 68px 0 0px;
+}
+.content__footer p{
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 600;
+}
+.content__footer li{
+    line-height: 23px;
+    /* list-style: none; */
+    list-style-type: circle;
+}
