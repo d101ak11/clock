@@ -1,0 +1,133 @@
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 30px 0;
+    border-bottom: 1px solid rgb(104, 99, 99); ;
+}
+header img{
+    width: 110px;
+}
+.left__heder{
+   margin-left: 20px;
+}
+.h_top{
+    margin: 12px 0px 0px 21px;
+
+}
+.h_top input{
+    width: 450px;
+    padding: 9px;
+    border: 0.5px solid;
+    border-radius: 5px;
+}
+.h_top button{
+    padding: 9px;
+    border-radius: 5px;
+    border: 0.5px solid;
+    margin-left: 10px;
+}
+.h_top button:hover{
+    background-color: rgb(247, 70, 70);
+    color: aliceblue;
+    font-weight: 700;
+}
+.h_botom{
+     margin-top: 20px;
+}
+.h_botom ul{
+    display: flex;
+}
+.h_botom li{
+    margin: 0 10px;
+}
+.h_botom a{
+      padding: 10px;
+      color: rgb(104, 99, 99);
+      font-weight: 900;
+}
+.h_botom  a:hover{
+    color: red;
+    border-bottom: 1px solid red;
+}
+/* content */
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    .content__span1{
+        margin: 0px 0 25px 0;
+    }
+    .content__span1 img{
+        width: 1200px;
+        height: auto;
+    }
+    .content__span2{
+        display: flex;
+        margin: 40px 0px 40px 0;
+    }
+    .content__span2 > img{
+        width: 770px;
+        height: 419px;
+    }
+    .img__child img{
+        padding-left: 13px;
+        margin-bottom: 14px;
+    }
+    .content__product{
+    }
+    .content__product h3{
+        width: 259px;
+        text-align: center;
+        border-bottom: 1px solid red;
+        margin: 0 auto;
+        padding: 10px;
+        margin-top: 86px;
+    }
+    .content__name__product{
+        display: flex;
+        margin: 32px 0 32px 0;
+    }
+    .product{
+        width: 257px;
+        height: 410px;
+        background-color: #fdfdfd96;
+        margin-right: 58px;
+    }
+    .product img{
+        width: 257px;
+        height: 260px;
+    }
+    .product p
+    {
+        padding: 28px;
+        font-weight: 700;
+    }
+    .product p:hover{
+        color: red;
+    }
+    .product span{
+        padding: 86px;
+    }
+    /* footre */
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        padding: 81px 0 81px 0 ;
+    }
+    .content__footer{
+        width: 335px;
+        padding: 26px;
+        margin: 0 68px 0 0px;
+    }
+    .content__footer p{
+        font-size: 18px;
+        line-height: 29px;
+        font-weight: 600;
+    }
+    .content__footer li{
+        line-height: 23px;
+        /* list-style: none; */
+        list-style-type: circle;
+    }
