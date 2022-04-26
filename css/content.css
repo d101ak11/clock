@@ -74,8 +74,6 @@ header img{
         padding-left: 13px;
         margin-bottom: 14px;
     }
-    .content__product{
-    }
     .content__product h3{
         width: 259px;
         text-align: center;
@@ -91,7 +89,7 @@ header img{
     .product{
         width: 257px;
         height: 410px;
-        background-color: #fdfdfd96;
+        background-color: #fefefe;
         margin-right: 58px;
     }
     .product img{
